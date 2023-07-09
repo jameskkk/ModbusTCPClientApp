@@ -20,6 +20,7 @@ namespace ModbusTCPClientApp
 
         private void btnRead_Click(object sender, EventArgs e)
         {
+            // Reference: https://fullstackladder.dev/blog/2022/11/12/modbustcp-client-using-csharp/
             //var request = new byte[]
             //{
             //          0x00, 0x01, // Transaction Identifier、連續數字或隨機數字都可以
